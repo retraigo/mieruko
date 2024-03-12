@@ -30,7 +30,7 @@ import { isWebp } from "../formats/webp.ts";
 export type ImageFormat = "jpeg" | "png" | "gif" | "bmp" | "webp" | "unknown";
 
 /** Get image format. Supports jpeg, png, gif, bmp, webp. */
-export function getImageFormat(bytes: Uint8Array) {
+export function getImageFormat(bytes: Uint8Array): ImageFormat {
   if (isJpeg(bytes)) {
     return "jpeg";
   } else if (isPng(bytes)) {
