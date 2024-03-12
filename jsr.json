@@ -1,0 +1,9 @@
+{
+  "name": "@lala/mieruko",
+  "version": "0.0.1",
+  "exports": {
+    "./": "./mod.ts",
+    "./format": "./src/util/format.ts",
+    "./size": "./src/util/image_size.ts"
+  }
+}

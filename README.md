@@ -1,2 +1,3 @@
 # mieruko
-Image similarity metrics
+
+Utilities for working with images.
